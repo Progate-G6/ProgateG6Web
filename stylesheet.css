@@ -68,7 +68,7 @@ header {
   text-align: center;
   height: 80vh;
   background-size: cover;
-  background-image: url(/images/eatsleepcode.jpeg);
+  background-image: url("https://progate-g6.github.io/ProgateG6Web/images/eatsleepcode.jpeg");
   background-position: 0 center;
 }
 

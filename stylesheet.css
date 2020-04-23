@@ -125,32 +125,4 @@ header {
   color: blue;
 }
 
-.detail-content{
-  width: 100%;
-  height: 450px;
-}
 
-.detail-wildan{
-  height: 100%;
-  background-color: burlywood;
-}
-
-.detail-laeli{
-  height: 100%;
-  background-color: red;
-}
-
-.detail-rizky {
-  height: 100%;
-  background-color: green;
-}
-
-.detail-iqbal {
-  height: 100%;
-  background-color: grey;
-}
-
-.detail-mukhlis {
-  height: 100%;
-  background-color: yellow;
-}

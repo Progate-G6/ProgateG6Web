@@ -99,7 +99,6 @@
     
     .team-content {
         margin-bottom: 10px;
-        white-space: nowrap;
         overflow: auto;
         overflow-y: hidden;
         display: flex;

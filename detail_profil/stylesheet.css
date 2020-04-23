@@ -170,6 +170,9 @@ header {
 
 .content-right p {
   color: white;
+}
+
+.desc p {
   text-align: justify;
   text-indent: 0.5in;
 }

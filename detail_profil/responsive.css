@@ -21,8 +21,44 @@
     }
     
     .welcome-title h2{
-        padding-top: 17vh;
+        padding-top: 12vh;
         font-size: 30px;
+    }
+
+    .detail-content img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content-sosmed{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .detail-wildan > .content-left {
+        position: absolute;
+        left:40%;
+        top: 5%;
+    }
+    
+    .detail-wildan >.content-right {
+        margin-top: 3%;
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+
+    .detail-rizky > .content-right {
+        right: 40%;
+        top: 5%;
+    }
+
+    .detail-rizky > .content-left {
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
     }
     
 }
@@ -110,6 +146,10 @@
         left: 5%;
         top: 25%;
     }
+
+    .desc p {
+        text-indent: 0.3in;
+      }
 
     .content-right h1, h2 {
         font-size: 20px;

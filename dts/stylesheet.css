@@ -110,8 +110,7 @@
   border: 2px solid rgba(0, 0, 255, 0.8);
   border-radius: 10px;
   width: 695px;
-  height: 170px;
-  padding: 5px 5px;
+  padding: 15px 5px;
   margin-left: 20px;
 
 }
@@ -121,7 +120,7 @@
 }
 
 .penjelasan-konten p {
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
 }
 

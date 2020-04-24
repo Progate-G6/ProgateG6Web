@@ -38,6 +38,26 @@
         margin-top: 10%;
         font-size:11px;
     }
+    
+    .dts-kiri h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+    
+    .dts-kiri p {
+        font-size: 10pt;
+    }
+    
+    .logo-dts{
+        height:150px;
+    }
+    
+    .dts-kiri a {
+        color: white;
+        background-color: blue;
+        font-size: 8pt;
+        padding: 10px 20px;
+    }
 }
 
 /* Untuk Smartphone */
@@ -52,7 +72,7 @@
     header {
         height: 45px;
     }
-
+    
     .header-right{
         position: absolute;
         right: 20px;
@@ -64,10 +84,10 @@
         font-size: 16px;
         height: 45px;
     }
-
+    
     .menu-icon{
         display: block;
-      }
+    }
     
     .container {
         margin: 0 0px;
@@ -125,5 +145,29 @@
         white-space: normal;
         margin-top: 10%;
         font-size:10px;
+    }
+
+    .dts-kiri h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+    
+    .dts-kiri p {
+        font-size: 10pt;
+    }
+    
+    .logo-dts{
+        display: none;
+    }
+
+    .dts-kiri{
+        width: 100%;
+    }
+    
+    .dts-kiri a {
+        color: white;
+        background-color: blue;
+        font-size: 8pt;
+        padding: 10px 20px;
     }
 }

@@ -94,6 +94,7 @@ header {
   margin-left: 5px;
   margin-right: 5px;
   margin-bottom: 60px;
+  height: 30vh;
 }
 
 .team-highlight {
@@ -156,23 +157,27 @@ header {
 
 /* EKSTRA-DTS */
 
+.kotak-extra-dts {
+  margin: 10px;
+}
 
 .dts-kiri {
   width: 70%;
   float: left;
   text-align: left;
-  padding: 40px 40px 40px 80px;
+  padding: 15px 15px 15px 15px;
+  
 }
 
 .dts-kiri h1 {
-  font-size: 40pt;
+  font-size: 32pt;
   font-weight: bold;
 }
 
 .dts-kiri p {
   text-align: justify;
   text-indent: 0.5in;
-  font-size: 30pt;
+  font-size: 25pt;
   color: grey;
 }
 
@@ -192,11 +197,14 @@ header {
 .dts-kanan {
   width: 30%;
   float: right;
-  text-align: right;
+  
+  text-align: center;
+  padding-top: 70px;
 
 }
 
 .logo-dts {
-  height: 500px;
+  height: 300px;
+  
 }
 

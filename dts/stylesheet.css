@@ -178,6 +178,7 @@ header {
   font-weight: bold;
   font-size: 24px;
   color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
 }
 
 .header-right {

@@ -26,17 +26,37 @@
     }
     
     .team-content {
-        height: 250px;
+        position: relative;
     }
     
     .team-highlight img {
         width: 90px;
         height: 90px;
     }
+
+    .team-highlight:hover{
+        background-color: rgb(119, 170, 252,1);
+        border: 0px;
+        box-shadow: 0 0 10px blue;
+        color: white;
+        font-size: 20px;
+      }
     
     .team-highlight, .team-txt {
         margin-top: 10%;
         font-size:11px;
+    }
+    
+    .nama{
+        font-size: 11px;
+    }
+    
+    .link-selengkap{
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        margin: 0;
+        font-size: 8px;
     }
     
     .dts-kiri h1 {
@@ -122,18 +142,22 @@
         white-space: nowrap;
         overflow: auto;
         overflow-y: hidden;
-        display: flex;
         height: 200px;
-        scroll-snap-type: x mandatory;  
         flex-direction:row;
+        display: flex;
     }
+
     
     .team-highlight {
-        scroll-snap-align: start;
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 15vh;
         font-size:6px;
-        flex-shrink: 0;
-        height: 100%;
-        width: 35%;
+        display: inline-block;
+    }
+
+    .team-highlight-wrap{
+        padding-bottom: 10px;
     }
     
     .team-highlight img {
@@ -146,7 +170,7 @@
         margin-top: 10%;
         font-size:10px;
     }
-
+    
     .dts-kiri h1 {
         font-size: 20pt;
         font-weight: normal;
@@ -159,7 +183,7 @@
     .logo-dts{
         display: none;
     }
-
+    
     .dts-kiri{
         width: 100%;
     }
@@ -169,5 +193,13 @@
         background-color: blue;
         font-size: 8pt;
         padding: 10px 20px;
+    }
+
+    .dts-kanan {
+        width: 0px;
+    }
+
+    .fa {
+        padding-left: 10px;
     }
 }

@@ -1,0 +1,399 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1{
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
+}
+i {
+  font-size: 17px;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-content {
+  text-align: center;
+  height: 80vh;
+  background-size: cover;
+  background-image: url("https://progate-g6.github.io/ProgateG6Web/images/eatsleepcode.jpeg");
+  background-position: 0 center;
+}
+
+.welcome-title {
+  font-family: 'Lucida Sans';
+  padding-top: 2%;
+}
+
+.welcome-title h1 {
+  color: white;
+  font-size: 65px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.welcome-title h2{
+  padding-top: 27vh;
+  color: white;
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+.content-sosmed{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  font-size: 35px;
+}
+
+.fa-whatsapp{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: green;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 6px rgb(56, 201, 56);
+  color:white;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.fa-envelope{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #ecf0f1;
+  padding: 10px 10px;
+  box-shadow: 0px 0px 6px white;
+  color: red;
+  margin-right: 10px;
+  transition: 0.5s;
+}
+
+.fa-instagram {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: pink;
+  padding: 10px 10px;
+  color: purple;
+  box-shadow: 0px 0px 6px purple;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.fa-whatsapp:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px rgb(56, 201, 56);
+}
+.fa-envelope:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px white;
+}
+.fa-instagram:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px purple;
+}
+
+.content-list{
+  position: relative;
+  left: 10%;
+}
+.detail-content{
+  width: 100%;
+  height: 750px;
+}
+.detail-content p{
+  font-size: 20px;
+}
+.detail-content img {
+  border-radius: 50%;
+  width : 150px;
+  height: 150px;
+  border: 4px ;
+  transition: 0.3s;
+  box-shadow: 0 0 8px white;
+}
+.detail-content img:hover{
+  transform: scale(1.1);
+  border-radius: 2%;
+  border: 0px;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+.detail-wildan{
+  position: relative;
+  height: 100%;
+  background-color: rgba(240, 182, 134, 0.9);
+}
+
+.list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
+  float: left;
+  margin: 3% 0 0 70px;
+  padding:5px;
+  width: 20%;
+  box-shadow: 0 0 10px grey;
+}
+.list-satu:hover, .list-dua:hover, .list-tiga:hover, .list-empat:hover, .list-lima:hover{
+  box-shadow: 0 0 10px blue;
+}
+.list-satu li{
+  padding-bottom: 10px;
+  color: rgb(218, 154, 102);
+}
+
+.list-wildan{
+  background-color: rgb(240, 182, 134);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-wildan > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-wildan{
+  background-color: rgba(240, 182, 134, 0.9);
+  height: 50%; 
+}
+
+.detail-wildan >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+.content-left h1{
+  text-shadow: 0 0 7px rgb(145, 241, 232);
+}
+.content-right h1 {
+  display: inline;
+  font-style: normal;
+  color: white;
+  text-shadow: 0 0 7px rgb(145, 241, 232);
+}
+
+.content-right p {
+  color: white;
+  text-align: justify;
+  text-indent: 0.5in;
+}
+
+/*----------------Profil Rizki-------------*/
+.detail-rizki {
+  position: relative;
+  color: white;
+  height: 100%;
+  background-color: rgba(218, 114, 96, 0.9);
+}
+
+.detail-rizki > .content-left {
+  max-width: 60%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.detail-rizki >.content-right {
+  top:10%;
+  color: white;
+  max-width: 40%;
+  position: absolute;
+  right: 10%;
+}
+
+.detail-content-rizki{
+  background-color: rgba(218, 114, 96, 0.9);
+  height: 50%; 
+}
+
+.list-dua li{
+  padding-bottom: 10px;
+  color: rgb(218, 114, 96);
+}
+
+.list-rizki{
+  background-color: rgb(218, 114, 96);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/*----------------Profil Laeli-------------*/
+.detail-laeli{
+  position: relative;
+  height: 100%;
+  background-color: rgb(228, 153, 178);
+}
+
+.list-tiga li{
+  padding-bottom: 10px;
+  color: rgb(228, 153, 178);
+}
+
+.list-laeli{
+  background-color: rgb(228, 153, 178);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-laeli > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-laeli{
+  background-color: prgb(228, 153, 178);
+  height: 50%; 
+}
+
+.detail-laeli >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+/*----------------Profil IQBAL-------------*/
+.detail-iqbal {
+  position: relative;
+  color: white;
+  height: 100%;
+  background-color: rgb(72, 108, 224);
+}
+
+.detail-iqbal > .content-left {
+  max-width: 60%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.detail-iqbal >.content-right {
+  top:10%;
+  color: white;
+  max-width: 40%;
+  position: absolute;
+  right: 10%;
+}
+
+.detail-content-iqbal{
+  background-color: rgb(72, 108, 224);
+  height: 50%; 
+}
+
+.list-empat li{
+  padding-bottom: 10px;
+  color: rgb(72, 108, 224);
+}
+
+.list-iqbal{
+  background-color: rgb(72, 108, 224);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+  /*----------------Profil Muklis-------------*/
+.detail-muklis{
+  position: relative;
+  height: 100%;
+  background-color: rgba(2, 164, 235, 0.9);
+}
+  
+.list-lima li{
+  padding-bottom: 10px;
+  color: rgb(2, 162, 235);
+}
+
+.list-muklis{
+  background-color: rgb(2, 162, 235);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-muklis > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-muklis{
+  background-color: rgba(2, 162, 235, 0.9);
+  height: 50%; 
+}
+
+.detail-muklis >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+
+

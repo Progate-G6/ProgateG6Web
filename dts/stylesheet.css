@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: "Lucida Grande";
 }
 
 a {
@@ -39,9 +39,8 @@ header {
   font-family: monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 24px;
   color: #FFFFFF;
-  text-shadow: 0 0 7px turquoise;
 }
 
 .header-right {
@@ -105,52 +104,26 @@ header {
   height: 100%;
   border-radius: 6px;
   width: calc(20% - 20px);
-  background-color: rgb(89, 175, 212,0.8);
+  background-color: #ecf0f1;
+  border: 3px solid grey;
   text-align: center;
-  transition: 0.3s;
 }
-.team-highlight:hover{
-  background-color: rgb(119, 170, 252,1);
-  border: 0px;
-  box-shadow: 0 0 10px blue;
-  color: white;
-  font-size: 20px;
-}
-.nama{
-  font-size: 17px;
-}
-.link-selengkap{
-  color:white;
-  background-color: rgba(3, 51, 163, 0.7);
-  border-radius: 3px;
-  padding: 7px;
-  margin: 0 30px;
-  font-size: 13px;
-  transition: 0.4s;
-}
-.link-selengkap:hover{
-  background-color:  rgba(3, 51, 163,1);
-  font-size: 15px;
-}
-.fa{
-  padding-left: 20px; 
-}
+
 .team-highlight img {
-  margin-top: 30%;
-  width: 120px;
-  height: 120px;
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  transition: 0.5s;
 }
-.team-highlight img:hover{
-  transform: scale(1.3);
-  cursor: pointer;
-}
+
 .team-txt {
   margin-top: 10%;
   font-size: 18px;
 }
 
+.team-highlight a {
+  color: blue;
+}
 
 .detail-content{
   width: 100%;

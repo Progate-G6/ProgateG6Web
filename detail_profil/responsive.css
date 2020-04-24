@@ -1,5 +1,5 @@
 /* Untuk Tablet */
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1000px) {
     
     .top-content {
         background-size: cover;
@@ -38,9 +38,8 @@
         margin-top: 10%;
         font-size:11px;
     }
-        padding-top: 12vh;
-        font-size: 30px;
-    }
+      
+    
 
     .detail-content img {
         width: 150px;

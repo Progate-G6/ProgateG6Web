@@ -38,6 +38,46 @@
         margin-top: 10%;
         font-size:11px;
     }
+        padding-top: 12vh;
+        font-size: 30px;
+    }
+
+    .detail-content img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .content-sosmed{
+        margin-top: 10px;
+        font-size: 25px;
+    }
+
+    .detail-wildan > .content-left {
+        position: absolute;
+        left:40%;
+        top: 5%;
+    }
+    
+    .detail-wildan >.content-right {
+        margin-top: 3%;
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+
+    .detail-rizky > .content-right {
+        right: 40%;
+        top: 5%;
+    }
+
+    .detail-rizky > .content-left {
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+    
 }
 
 /* Untuk Smartphone */
@@ -52,7 +92,6 @@
     header {
         height: 45px;
     }
-
     .header-right{
         position: absolute;
         right: 20px;
@@ -64,10 +103,6 @@
         font-size: 16px;
         height: 45px;
     }
-
-    .menu-icon{
-        display: block;
-      }
     
     .container {
         margin: 0 0px;
@@ -126,4 +161,64 @@
         margin-top: 10%;
         font-size:10px;
     }
+
+    .detail-content {
+        height: 100vh;
+    }
+    
+    .detail-content img {
+        width: 100px;
+        height: 100px;
+    }
+    
+    .content-sosmed{
+        margin-top: 10px;
+        font-size: 15px;
+    }
+    
+    .detail-wildan > .content-left {
+        position: absolute;
+        left: 37%;
+        top: 5%;
+    }
+    
+    .detail-wildan >.content-right {
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+
+    .desc p {
+        text-indent: 0.3in;
+      }
+
+    .content-right h1, h2 {
+        font-size: 20px;
+    }
+
+    .content-right p, ul {
+        font-size: 12px;
+    }
+
+    .content-left h1, h2 {
+        font-size: 20px;
+    }
+
+    .content-left p, ul {
+        font-size: 12px;
+    }
+
+    .detail-rizky > .content-right {
+        right: 37%;
+        top: 5%;
+    }
+
+    .detail-rizky > .content-left {
+        max-width: 90%;
+        position: absolute;
+        left: 5%;
+        top: 25%;
+    }
+   
 }

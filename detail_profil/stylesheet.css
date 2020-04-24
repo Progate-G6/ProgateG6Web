@@ -89,7 +89,6 @@ header {
   font-size: 65px;
   letter-spacing: 5px;
 }
-
 .team-content {
   margin-left: 5px;
   margin-right: 5px;
@@ -127,12 +126,90 @@ header {
 
 .detail-content{
   width: 100%;
-  height: 450px;
+  height: 110vh;
+}
+
+.detail-content img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width : 200px;
+  height: 200px;
 }
 
 .detail-wildan{
+  position: relative;
   height: 100%;
-  background-color: burlywood;
+  background-color: gray;
+}
+
+.detail-wildan > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.content-sosmed{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 35px;
+}
+
+.fa-whatsapp{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: green;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color:white;
+}
+
+.fa-envelope{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #ecf0f1;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color: red;
+}
+
+.fa-instagram {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #f39c12;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color: purple;
+}
+
+.detail-wildan >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+.content-right h1 {
+  display: inline;
+  font-style: normal;
+  color: white;
+  margin: 0px;
+}
+
+.content-right p {
+  color: white;
+}
+
+.desc p {
+  text-align: justify;
+  text-indent: 0.5in;
 }
 
 .detail-laeli{
@@ -141,8 +218,24 @@ header {
 }
 
 .detail-rizky {
+  position: relative;
+  color: white;
   height: 100%;
-  background-color: green;
+  background-color: #c0392b;
+}
+
+.detail-rizky > .content-left {
+  max-width: 60%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.detail-rizky >.content-right {
+  top:10%;
+  color: white;
+  position: absolute;
+  right: 10%;
 }
 
 .detail-iqbal {

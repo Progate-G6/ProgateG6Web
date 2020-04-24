@@ -25,7 +25,7 @@ header {
   height: 65px;
   width: 100%;
   background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
@@ -34,7 +34,7 @@ header {
   float: left;
 }
 
-.header-left h1{
+.header-left h1 {
   width: 289px;
   font-family: monospace;
   font-style: normal;
@@ -83,7 +83,7 @@ header {
   margin-bottom: 10px;
 }
 
-.welcome-title h2{
+.welcome-title h2 {
   padding-top: 27vh;
   color: white;
   font-size: 65px;
@@ -124,4 +124,79 @@ header {
   color: blue;
 }
 
+.detail-content {
+  width: 100%;
+  height: 450px;
+}
+
+.detail-wildan {
+  height: 100%;
+  background-color: burlywood;
+}
+
+.detail-laeli {
+  height: 100%;
+  background-color: red;
+}
+
+.detail-rizky {
+  height: 100%;
+  background-color: green;
+}
+
+.detail-iqbal {
+  height: 100%;
+  background-color: grey;
+}
+
+.detail-mukhlis {
+  height: 100%;
+  background-color: yellow;
+}
+
+/* EKSTRA-DTS */
+
+
+.dts-kiri {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding: 40px 40px 40px 80px;
+}
+
+.dts-kiri h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.dts-kiri p {
+  text-align: justify;
+  text-indent: 0.5in;
+  font-size: 30pt;
+  color: grey;
+}
+
+.dts-kiri a {
+  color: white;
+  background-color: blue;
+  font-size: 18pt;
+  padding: 10px 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.dts-kiri a:hover {
+  opacity: 1;
+}
+
+.dts-kanan {
+  width: 30%;
+  float: right;
+  text-align: right;
+
+}
+
+.logo-dts {
+  height: 500px;
+}
 

@@ -63,6 +63,7 @@ header {
 }
 
 .top-content {
+  margin-bottom: -2%;
   text-align: center;
   height: 80vh;
   background-size: cover;
@@ -87,6 +88,40 @@ header {
   color: white;
   font-size: 65px;
   letter-spacing: 5px;
+}
+.team-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+.team-highlight {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 100%;
+  border-radius: 6px;
+  width: calc(20% - 20px);
+  background-color: #ecf0f1;
+  border: 3px solid grey;
+  text-align: center;
+}
+
+.team-highlight img {
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-txt {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
+.team-highlight a {
+  color: blue;
 }
 
 .detail-content{

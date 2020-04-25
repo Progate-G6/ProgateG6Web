@@ -1,5 +1,32 @@
 /* Untuk Tablet */
-@media all and (max-width: 1000px) {}
+@media all and (max-width: 1000px) {
+    /* BAGIAN TOP  */
+
+    .top-kiri {
+        padding-top: 6%;
+    }
+
+    .logo-dts {
+        width: 150px;
+    }
+
+    /* BAGIAN KONTEN */
+    .logo-konten {
+        width: 30%;
+    }
+
+    .penjelasan-konten {
+        width: 55%;
+    }
+
+    .penjelasan-konten h1 {
+        font-size: 14px;
+    }
+
+    .penjelasan-konten p {
+        font-size: 11px;
+        text-align: justify;
+    }}
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {

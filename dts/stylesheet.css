@@ -30,6 +30,8 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   top: 0;
   margin-bottom: 10px;
+  z-index: 10;
+  position: fixed;
 }
 
 .header-left {
@@ -73,7 +75,7 @@ header {
   height: 332.5px;
   box-shadow: 0px 10px 20px rgb(224, 222, 222);
   background-color: rgb(248, 248, 248);
-  margin-top: 20px;
+  margin-top: 10%;
 }
 
 .top-kiri {
@@ -123,7 +125,7 @@ header {
 
 /* BAGIAN KONTEN */
 .kotak-penjelasan {
-  padding: 40px 70px 0px 70px;
+  padding: 40px 5% 0px 5%;
 }
 
 .kotak-penjelasan p {
@@ -138,7 +140,7 @@ header {
   height: 210px;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin: 0px 70px 0px 70px;
+  margin: 0px 5% 0px 5%;
   text-align: center;
   transition: all 0.5s;
 }
@@ -226,7 +228,13 @@ margin-top: 5%;
 
 .fa{
   padding-right: 10%;
-  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover{
+  color: aqua;
+  transform: scale(1.2);
 }
 
 .footer-right {
@@ -236,7 +244,7 @@ margin-top: 5%;
 
 .suport{
   background-color: white;
-  padding: 5px;
+  padding: 10px;
   height: 30px;
   width: 130px;
   padding-top: 13px;

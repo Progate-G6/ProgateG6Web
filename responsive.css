@@ -58,6 +58,10 @@
         margin: 0;
         font-size: 8px;
     }
+
+    .link-selengkap > .fa{
+        padding-right: 0px;
+    }
     
     .dts-kiri h1 {
         font-size: 20pt;
@@ -77,6 +81,31 @@
         background-color: blue;
         font-size: 8pt;
         padding: 10px 20px;
+    }
+
+    .progate-kiri img {
+        height: 150px;
+    }
+
+    .progate-kanan {
+        padding-right: 45px;
+    }
+
+    .progate-kanan h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+
+    .progate-kanan p{
+        font-size: 10pt;
+    }
+
+    .progate-kanan a {
+        font-size: 8pt;
+    }
+
+    .kotak-extra-progate {
+        height: 30vh;
     }
 }
 
@@ -105,17 +134,13 @@
         height: 45px;
     }
     
-    .menu-icon{
-        display: block;
-    }
-    
     .container {
         margin: 0 0px;
         padding: 0 0px;
     }
     
     .header-right {
-        margin-right: -10%;
+        margin-right: 10%;
     }
     
     .header-right a {
@@ -206,5 +231,45 @@
 
     .fa {
         padding-left: 10px;
+    }
+
+    .progate-kiri {
+        display: none;
+    }
+
+    .progate-kanan {
+        padding:10px;
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .progate-kanan h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+
+    .progate-kanan p{
+        font-size: 10pt;
+    }
+
+    .progate-kanan a {
+        font-size: 8pt;
+    }
+
+    .kotak-extra-progate {
+        height: 35vh;
+    }
+
+    .footer-menu, .footer-kontak, .footer-folow, .footer-coppy-right{
+        display: none;
+    }
+
+    .footer-email-grup{
+        width:90%;
+    }
+
+    .footer-right h1{
+        text-align: center;
     }
 }

@@ -3,7 +3,7 @@
 
     .header-right{
         position: absolute;
-        right: 100px;
+        right: 20px;
     }
     
     .top-content {
@@ -120,7 +120,7 @@
     }
     .header-right{
         position: absolute;
-        right: 50px;
+        right: 20px;
     }
     
     .header-left h1 {
@@ -221,6 +221,18 @@
     .list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
         width: 22%;
         margin: 1% 0 0 1vh;
+    }
+
+    .footer-menu, .footer-kontak, .footer-folow, .footer-coppy-right{
+        display: none;
+    }
+
+    .footer-email-grup{
+        width:90%;
+    }
+
+    .footer-right h1{
+        text-align: center;
     }
     
 }

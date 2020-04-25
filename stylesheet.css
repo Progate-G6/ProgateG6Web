@@ -20,7 +20,6 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
-
 header {
   height: 65px;
   width: 100%;
@@ -42,6 +41,7 @@ header {
   font-size: 25px;
   color: #FFFFFF;
   text-shadow: 0 0 7px turquoise;
+
 }
 
 .header-right {
@@ -84,12 +84,36 @@ header {
   margin-bottom: 10px;
 }
 
+
 .welcome-title h2 {
   padding-top: 27vh;
   color: white;
   font-size: 65px;
   letter-spacing: 5px;
 }
+
+.team-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 60px;
+}
+
+.team-highlight img {
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-txt {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
+.team-highlight a {
+  color: blue;
+}
+
 
 .team-content {
   margin-left: 5px;
@@ -134,6 +158,19 @@ header {
   font-size: 17px;
 }
 
+
+.dts-kiri {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding: 40px 40px 40px 80px;
+}
+
+.dts-kiri h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
 .link-selengkap{
   color:white;
   background-color: rgba(3, 51, 163, 0.7);
@@ -162,12 +199,6 @@ header {
   transform: scale(1.3);
   cursor: pointer;
 }
-
-.team-txt {
-  margin-top: 10%;
-  font-size: 18px;
-}
-
 
 /* EKSTRA-DTS */
 
@@ -248,7 +279,13 @@ font-family: Arial, Helvetica, sans-serif;
 
 .fa{
   padding-right: 10%;
-  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover{
+  color: aqua;
+  transform: scale(1.2);
 }
 
 .footer-right {
@@ -258,7 +295,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .suport{
   background-color: white;
-  padding: 5px;
+  padding: 10px;
   height: 50px;
   width: 130px;
   padding-top: 13px;
@@ -287,4 +324,61 @@ font-family: Arial, Helvetica, sans-serif;
   font-size: 10pt;
 }
 
+.logo-dts {
+  height: 500px;
+}
 
+/*progate */
+
+.kotak-extra-progate {
+  height: 70vh;
+}
+
+.progate-kanan {
+  width: 65%;
+  float: right;
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 100px;
+  
+}
+
+.progate-kanan h1 {
+  font-size: 30pt;
+  font-weight: bold;
+}
+
+.progate-kanan p {
+  text-align: justify;
+  text-indent: 0.5in;
+  font-size: 25pt;
+  color: grey;
+}
+
+.progate-kanan a {
+  color: white;
+  background-color: blue;
+  font-size: 18pt;
+  padding: 10px 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.progate-kanan a:hover {
+  opacity: 1;
+}
+
+.progate-kiri {
+  width: 35%;
+  float: left;
+  text-align: left;
+  padding-top: 7vh;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 5vw;
+}
+
+.progate {
+  height: 300px;
+}

@@ -30,4 +30,36 @@
 }
 
 /* Untuk Smartphone */
-@media all and (max-width: 670px) {}
+@media all and (max-width: 670px) {
+    header {
+        height: 45px;
+    }
+    .header-right a{
+        font-size: 10px;
+        padding:0 15px;
+        line-height: 45px;
+    }
+    .header-right{
+        position: absolute;
+        right: 10px;
+    }
+    
+    .header-left h1 {
+        position: absolute;
+        left: 5px;
+        font-size: 16px;
+        height: 45px;
+    }
+
+    .footer-menu, .footer-kontak, .footer-folow, .footer-coppy-right{
+        display: none;
+    }
+
+    .footer-email-grup{
+        width:90%;
+    }
+
+    .footer-right h1{
+        text-align: center;
+    }
+}

@@ -39,7 +39,7 @@ header {
   font-family: monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25px;
   color: #FFFFFF;
   text-shadow: 0 0 7px turquoise;
 }
@@ -118,12 +118,16 @@ header {
   color: white;
   font-size: 20px;
 }
-
 .team-highlight img {
-  margin-top: 10%;
-  width: 150px;
-  height: 150px;
+  margin-top: 30%;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
+  transition: 0.5s;
+}
+.team-highlight img:hover{
+  transform: scale(1.3);
+  cursor: pointer;
 }
 
 .nama{
@@ -164,9 +168,6 @@ header {
   font-size: 18px;
 }
 
-.team-highlight a {
-  color: blue;
-}
 
 /* EKSTRA-DTS */
 

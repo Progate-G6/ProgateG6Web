@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 a {
@@ -183,7 +183,7 @@ i {
 
 .list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
   float: left;
-  margin: 3% 0 0 70px;
+  margin: 3% 5%;
   padding:5px;
   width: 20%;
   box-shadow: 0 0 10px grey;
@@ -395,5 +395,67 @@ i {
   left: 30%;
 }
 
+
+/*------------------FOOTER---------------------*/
+li {
+  list-style: none;
+}
+footer{
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+
+}
+
+.footer{
+  background-color: #111111;
+  color: white;
+  height: 320px;
+  padding: 2% 15%;
+}
+.footer-menu, .footer-kontak, .footer-folow, .footer-email-grup{
+  float: left;
+  width: 30%;
+}
+
+.footer-menu li, .footer-kontak li, .footer-folow li, .footer-email-grup li{
+  padding-bottom: 10px;
+  font-size: 11pt;
+}
+
+.footer-right {
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.suport{
+  background-color: white;
+  padding: 5px;
+  height: 50px;
+  width: 130px;
+  padding-top: 13px;
+}
+.suport img{
+  height: 30px;
+}
+
+.footer-right h1{
+  text-align: right;
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
+}
+
+.footer-coppy-right{
+  text-align: center;
+  padding: 5px 0;
+  background-color: #141414;
+  color:aqua;
+  font-weight: bold;
+  font-size: 10pt;
+}
 
 

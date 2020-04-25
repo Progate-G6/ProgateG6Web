@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
 }
 
 a {
@@ -49,7 +49,6 @@ header {
 
 .header-right {
   float: right;
-
 }
 
 .header-right a {
@@ -149,6 +148,7 @@ header {
   padding-left: 10px;
   padding-right: 5px;
   background-color: rgb(248, 248, 248);
+  
 }
 
 
@@ -197,5 +197,70 @@ header {
 
 .penjelasan-konten a:hover {
   opacity: 1;
+  box-shadow: 0 0 5px blue;
+}
+/*------------------FOOTER---------------------*/
+li {
+  list-style: none;
+}
+footer{
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 5%;
+}
 
+.footer{
+  background-color: #111111;
+  color: white;
+  height: 270px;
+  padding: 2% 10%;
+}
+.footer-menu, .footer-kontak, .footer-folow, .footer-email-grup{
+  float: left;
+  width: 25%;
+}
+
+.footer-menu li, .footer-kontak li, .footer-folow li, .footer-email-grup li{
+  padding-bottom: 10px;
+  font-size: 11pt;
+}
+
+.fa{
+  padding-right: 10%;
+  text-align: center;
+}
+
+.footer-right {
+  float: right;
+  margin: 0 20px 0 0;
+}
+
+.suport{
+  background-color: white;
+  padding: 5px;
+  height: 30px;
+  width: 130px;
+  padding-top: 13px;
+}
+.suport img{
+  height: 30px;
+}
+
+.footer-right h1{
+  text-align: right;
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
+}
+
+.footer-coppy-right{
+  text-align: center;
+  padding: 5px 0;
+  background-color: #141414;
+  color:aqua;
+  font-weight: bold;
+  font-size: 10pt;
 }

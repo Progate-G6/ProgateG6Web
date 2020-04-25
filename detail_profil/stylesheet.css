@@ -4,13 +4,15 @@
 
 body {
   margin: 0;
-  font-family: "Lucida Grande";
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 a {
   text-decoration: none;
 }
-
+li{
+  list-style: none;
+}
 .clear {
   clear: left;
 }
@@ -39,8 +41,12 @@ header {
   font-family: monospace;
   font-style: normal;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 25px;
   color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
+}
+i {
+  font-size: 17px;
 }
 
 .header-right {
@@ -63,7 +69,6 @@ header {
 }
 
 .top-content {
-  margin-bottom: -2%;
   text-align: center;
   height: 80vh;
   background-size: cover;
@@ -89,75 +94,12 @@ header {
   font-size: 65px;
   letter-spacing: 5px;
 }
-.team-content {
-  margin-left: 5px;
-  margin-right: 5px;
-  height: 400px;
-  margin-bottom: 60px;
-}
-
-.team-highlight {
-  margin-right: 10px;
-  margin-left: 10px;
-  float: left;
-  height: 100%;
-  border-radius: 6px;
-  width: calc(20% - 20px);
-  background-color: #ecf0f1;
-  border: 3px solid grey;
-  text-align: center;
-}
-
-.team-highlight img {
-  margin-top: 10%;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-}
-
-.team-txt {
-  margin-top: 10%;
-  font-size: 18px;
-}
-
-.team-highlight a {
-  color: blue;
-}
-
-.detail-content{
-  width: 100%;
-  height: 110vh;
-}
-
-.detail-content img {
-  text-align: center;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 50%;
-  width : 200px;
-  height: 200px;
-}
-
-.detail-wildan{
-  position: relative;
-  height: 100%;
-  background-color: gray;
-}
-
-.detail-wildan > .content-left {
-  position: absolute;
-  left: 10%;
-  top: 10%;
-}
-
 .content-sosmed{
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 30px;
-  width: 100%;
   font-size: 35px;
 }
 
@@ -165,27 +107,111 @@ header {
   display: inline-block;
   border-radius: 50px;
   background-color: green;
-  box-shadow: 0px 0px 2px #888;
   padding: 10px 10px;
+  box-shadow: 0px 0px 6px rgb(56, 201, 56);
   color:white;
+  margin-right: 10px;
+  transition: 0.5s;
 }
 
 .fa-envelope{
   display: inline-block;
   border-radius: 50px;
   background-color: #ecf0f1;
-  box-shadow: 0px 0px 2px #888;
   padding: 10px 10px;
+  box-shadow: 0px 0px 6px white;
   color: red;
+  margin-right: 10px;
+  transition: 0.5s;
 }
 
 .fa-instagram {
   display: inline-block;
   border-radius: 50px;
-  background-color: #f39c12;
-  box-shadow: 0px 0px 2px #888;
+  background-color: pink;
   padding: 10px 10px;
   color: purple;
+  box-shadow: 0px 0px 6px purple;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.fa-whatsapp:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px rgb(56, 201, 56);
+}
+.fa-envelope:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px white;
+}
+.fa-instagram:hover{
+  transform: scale(1.2);
+  box-shadow: 0px 0px 8px purple;
+}
+
+.content-list{
+  display: flex;
+  justify-content: center;
+}
+.detail-content{
+  width: 100%;
+  height: 750px;
+}
+.detail-content p{
+  font-size: 20px;
+}
+.detail-content img {
+  border-radius: 50%;
+  width : 150px;
+  height: 150px;
+  border: 4px ;
+  transition: 0.3s;
+  box-shadow: 0 0 8px white;
+}
+.detail-content img:hover{
+  transform: scale(1.1);
+  border-radius: 2%;
+  border: 0px;
+  box-shadow: 0 0 10px white;
+  cursor: pointer;
+}
+.detail-wildan{
+  position: relative;
+  height: 100%;
+  background-color: rgba(240, 182, 134, 0.9);
+}
+
+.list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
+  float: left;
+  margin: 3% 0 0 70px;
+  padding:5px;
+  width: 20%;
+  box-shadow: 0 0 10px grey;
+}
+.list-satu:hover, .list-dua:hover, .list-tiga:hover, .list-empat:hover, .list-lima:hover{
+  box-shadow: 0 0 10px blue;
+}
+.list-satu li{
+  padding-bottom: 10px;
+  color: rgb(218, 154, 102);
+}
+
+.list-wildan{
+  background-color: rgb(240, 182, 134);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-wildan > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-wildan{
+  background-color: rgba(240, 182, 134, 0.9);
+  height: 50%; 
 }
 
 .detail-wildan >.content-right {
@@ -195,55 +221,179 @@ header {
   position: relative;
   left: 30%;
 }
-
+.content-left h1{
+  text-shadow: 0 0 7px rgb(145, 241, 232);
+}
 .content-right h1 {
   display: inline;
   font-style: normal;
   color: white;
-  margin: 0px;
+  text-shadow: 0 0 7px rgb(145, 241, 232);
 }
 
 .content-right p {
   color: white;
-}
-
-.desc p {
   text-align: justify;
-  text-indent: 0.5in;
 }
 
-.detail-laeli{
-  height: 100%;
-  background-color: red;
-}
 
-.detail-rizky {
+/*----------------Profil Rizki-------------*/
+.detail-rizki {
   position: relative;
   color: white;
   height: 100%;
-  background-color: #c0392b;
+  background-color: rgba(218, 114, 96, 0.9);
 }
 
-.detail-rizky > .content-left {
+.detail-rizki > .content-left {
   max-width: 60%;
   position: absolute;
   left: 10%;
   top: 10%;
 }
 
-.detail-rizky >.content-right {
+.detail-rizki >.content-right {
   top:10%;
   color: white;
+  max-width: 40%;
   position: absolute;
   right: 10%;
 }
 
-.detail-iqbal {
-  height: 100%;
-  background-color: grey;
+.detail-content-rizki{
+  background-color: rgba(218, 114, 96, 0.9);
+  height: 50%; 
 }
 
-.detail-mukhlis {
-  height: 100%;
-  background-color: yellow;
+.list-dua li{
+  padding-bottom: 10px;
+  color: rgb(218, 114, 96);
 }
+
+.list-rizki{
+  background-color: rgb(218, 114, 96);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+/*----------------Profil Laeli-------------*/
+.detail-laeli{
+  position: relative;
+  height: 100%;
+  background-color: rgb(228, 153, 178);
+}
+
+.list-tiga li{
+  padding-bottom: 10px;
+  color: rgb(228, 153, 178);
+}
+
+.list-laeli{
+  background-color: rgb(228, 153, 178);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-laeli > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-laeli{
+  background-color: prgb(228, 153, 178);
+  height: 50%; 
+}
+
+.detail-laeli >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+/*----------------Profil IQBAL-------------*/
+.detail-iqbal {
+  position: relative;
+  color: white;
+  height: 100%;
+  background-color: rgb(72, 108, 224);
+}
+
+.detail-iqbal > .content-left {
+  max-width: 60%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.detail-iqbal >.content-right {
+  top:10%;
+  color: white;
+  max-width: 40%;
+  position: absolute;
+  right: 10%;
+}
+
+.detail-content-iqbal{
+  background-color: rgb(72, 108, 224);
+  height: 50%; 
+}
+
+.list-empat li{
+  padding-bottom: 10px;
+  color: rgb(72, 108, 224);
+}
+
+.list-iqbal{
+  background-color: rgb(72, 108, 224);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+  /*----------------Profil Muklis-------------*/
+.detail-muklis{
+  position: relative;
+  height: 100%;
+  background-color: rgba(2, 164, 235, 0.9);
+}
+  
+.list-lima li{
+  padding-bottom: 10px;
+  color: rgb(2, 162, 235);
+}
+
+.list-muklis{
+  background-color: rgb(2, 162, 235);
+  padding: 10px;
+  color: white;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.detail-muklis > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+.detail-content-muklis{
+  background-color: rgba(2, 162, 235, 0.9);
+  height: 50%; 
+}
+
+.detail-muklis >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+
+

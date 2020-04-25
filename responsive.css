@@ -1,5 +1,5 @@
 /* Untuk Tablet */
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1000px) {
     
     .top-content {
         background-size: cover;
@@ -26,17 +26,86 @@
     }
     
     .team-content {
-        height: 250px;
+        position: relative;
     }
     
     .team-highlight img {
         width: 90px;
         height: 90px;
     }
+
+    .team-highlight:hover{
+        background-color: rgb(119, 170, 252,1);
+        border: 0px;
+        box-shadow: 0 0 10px blue;
+        color: white;
+        font-size: 20px;
+      }
     
     .team-highlight, .team-txt {
         margin-top: 10%;
         font-size:11px;
+    }
+    
+    .nama{
+        font-size: 11px;
+    }
+    
+    .link-selengkap{
+        text-align: center;
+        position: absolute;
+        bottom: 0px;
+        margin: 0;
+        font-size: 8px;
+    }
+
+    .link-selengkap > .fa{
+        padding-right: 0px;
+    }
+    
+    .dts-kiri h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+    
+    .dts-kiri p {
+        font-size: 10pt;
+    }
+    
+    .logo-dts{
+        height:150px;
+    }
+    
+    .dts-kiri a {
+        color: white;
+        background-color: blue;
+        font-size: 8pt;
+        padding: 10px 20px;
+    }
+
+    .progate-kiri img {
+        height: 150px;
+    }
+
+    .progate-kanan {
+        padding-right: 45px;
+    }
+
+    .progate-kanan h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+
+    .progate-kanan p{
+        font-size: 10pt;
+    }
+
+    .progate-kanan a {
+        font-size: 8pt;
+    }
+
+    .kotak-extra-progate {
+        height: 30vh;
     }
 }
 
@@ -52,7 +121,7 @@
     header {
         height: 45px;
     }
-
+    
     .header-right{
         position: absolute;
         right: 20px;
@@ -64,10 +133,6 @@
         font-size: 16px;
         height: 45px;
     }
-
-    .menu-icon{
-        display: block;
-      }
     
     .container {
         margin: 0 0px;
@@ -75,7 +140,7 @@
     }
     
     .header-right {
-        margin-right: -10%;
+        margin-right: 10%;
     }
     
     .header-right a {
@@ -102,18 +167,27 @@
         white-space: nowrap;
         overflow: auto;
         overflow-y: hidden;
-        display: flex;
         height: 200px;
-        scroll-snap-type: x mandatory;  
         flex-direction:row;
+        display: flex;
+        min-height: 28vh;
+    }
+
+    .link-selengkap{
+        bottom: 2px;
     }
     
     .team-highlight {
-        scroll-snap-align: start;
+        margin-left: 3px;
+        margin-right: 3px;
+        width: 15vh;
         font-size:6px;
-        flex-shrink: 0;
-        height: 100%;
-        width: 35%;
+        min-height: 26vh;
+        display: inline-block;
+    }
+
+    .team-highlight-wrap{
+        padding-bottom: 10px;
     }
     
     .team-highlight img {
@@ -125,5 +199,77 @@
         white-space: normal;
         margin-top: 10%;
         font-size:10px;
+    }
+    
+    .dts-kiri h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+    
+    .dts-kiri p {
+        font-size: 10pt;
+    }
+    
+    .logo-dts{
+        display: none;
+    }
+    
+    .dts-kiri{
+        width: 100%;
+    }
+    
+    .dts-kiri a {
+        color: white;
+        background-color: blue;
+        font-size: 8pt;
+        padding: 10px 20px;
+    }
+
+    .dts-kanan {
+        width: 0px;
+    }
+
+    .fa {
+        padding-left: 10px;
+    }
+
+    .progate-kiri {
+        display: none;
+    }
+
+    .progate-kanan {
+        padding:10px;
+        width: 100%;
+        float: left;
+        text-align: left;
+    }
+
+    .progate-kanan h1 {
+        font-size: 20pt;
+        font-weight: normal;
+    }
+
+    .progate-kanan p{
+        font-size: 10pt;
+    }
+
+    .progate-kanan a {
+        font-size: 8pt;
+    }
+
+    .kotak-extra-progate {
+        height: 35vh;
+    }
+
+    .footer-menu, .footer-kontak, .footer-folow, .footer-coppy-right{
+        display: none;
+    }
+
+    .footer-email-grup{
+        width:90%;
+    }
+
+    .footer-right h1{
+        text-align: center;
     }
 }

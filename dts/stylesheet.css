@@ -30,6 +30,8 @@ header {
   background-color: rgba(34, 49, 52, 0.9);
   top: 0;
   margin-bottom: 10px;
+  z-index: 10;
+  position: fixed;
 }
 
 .header-left {
@@ -226,7 +228,13 @@ margin-top: 5%;
 
 .fa{
   padding-right: 10%;
-  text-align: center;
+  color: white;
+  transition: 0.3s;
+}
+
+.fa:hover{
+  color: aqua;
+  transform: scale(1.2);
 }
 
 .footer-right {
@@ -236,7 +244,7 @@ margin-top: 5%;
 
 .suport{
   background-color: white;
-  padding: 5px;
+  padding: 10px;
   height: 30px;
   width: 130px;
   padding-top: 13px;

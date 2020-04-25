@@ -1,5 +1,10 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
+
+    .header-right{
+        position: absolute;
+        right: 100px;
+    }
     
     .top-content {
         background-size: cover;
@@ -21,7 +26,7 @@
     }
     
     .welcome-title h2{
-        padding-top: 17vh;
+        padding-top: 12vh;
         font-size: 30px;
     }
     
@@ -38,43 +43,65 @@
         margin-top: 10%;
         font-size:11px;
     }
-      
     
-
     .detail-content img {
-        width: 150px;
-        height: 150px;
+        display: block;
+        margin: 0 auto;
+        width: 100px;
+        height: 100px;
     }
-
+    
     .content-sosmed{
         margin-top: 10px;
         font-size: 25px;
     }
-
-    .detail-wildan > .content-left {
+    
+    .detail-content-wildan, .detail-content-rizki, .detail-content-laeli, .detail-content-iqbal, .detail-content-muklis{
+        height: 62%;
+    }
+    
+    .detail-wildan > .content-left,  .detail-laeli > .content-left, .detail-muklis > .content-left{
         position: absolute;
         left:40%;
         top: 5%;
     }
     
-    .detail-wildan >.content-right {
-        margin-top: 3%;
+    .detail-wildan >.content-right, .detail-laeli >.content-right, .detail-muklis >.content-right {
         max-width: 90%;
         position: absolute;
         left: 5%;
-        top: 25%;
+        top: 40%;
     }
-
-    .detail-rizky > .content-right {
-        right: 40%;
+    
+    .list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
+        margin: 1% 0 0 5vw;
+        padding:5px;
+    }
+    
+    ul {
+        padding-left: 0px;
+    }
+    
+    li {
+        font-size: 14px;
+    }
+    
+    .list-satu > h2, .list-dua > h2, .list-tiga > h2, .list-empat > h2, .list-lima > h2{
+        font-weight: 900;
+        font-size: 14px;
+    }
+    
+    .detail-rizki > .content-right, .detail-iqbal > .content-right {
+        left: 40%;
         top: 5%;
+        right: unset;
     }
-
-    .detail-rizky > .content-left {
+    
+    .detail-rizki > .content-left, .detail-iqbal > .content-left {
         max-width: 90%;
         position: absolute;
         left: 5%;
-        top: 25%;
+        top: 40%;
     }
     
 }
@@ -93,7 +120,7 @@
     }
     .header-right{
         position: absolute;
-        right: 20px;
+        right: 50px;
     }
     
     .header-left h1 {
@@ -108,9 +135,6 @@
         padding: 0 0px;
     }
     
-    .header-right {
-        margin-right: -10%;
-    }
     
     .header-right a {
         line-height: 45px;
@@ -131,93 +155,72 @@
         font-size: 16px;
     }
     
-    .team-content {
-        margin-bottom: 10px;
-        white-space: nowrap;
-        overflow: auto;
-        overflow-y: hidden;
-        display: flex;
-        height: 200px;
-        scroll-snap-type: x mandatory;  
-        flex-direction:row;
-    }
-    
-    .team-highlight {
-        scroll-snap-align: start;
-        font-size:6px;
-        flex-shrink: 0;
-        height: 100%;
-        width: 35%;
-    }
-    
-    .team-highlight img {
+    .detail-content img {
         width: 65px;
         height: 65px;
     }
-    
-    .team-txt {
-        word-wrap: break-word;
-        margin-top: 10%;
-        font-size:10px;
-    }
 
-    .detail-content {
-        height: 100vh;
+    .detail-content-wildan, .detail-content-rizki, .detail-content-laeli, .detail-content-iqbal, .detail-content-muklis{
+        height: 57%;
     }
     
-    .detail-content img {
-        width: 100px;
-        height: 100px;
+    i {
+        font-size: 12px;
+    }
+    
+    .fa-whatsapp, .fa-envelope,.fa-instagram {
+        padding: 5px 5px;
     }
     
     .content-sosmed{
-        margin-top: 10px;
         font-size: 15px;
     }
-    
-    .detail-wildan > .content-left {
-        position: absolute;
-        left: 37%;
-        top: 5%;
+
+    .content-right h1, .content-left h1 {
+        font-size: 22px;
+    }
+
+    .content-right h2, .content-left h2 {
+        font-size: 22px;
+    }
+
+    .content-right p , .content-left p{
+        font-size: 14px;
     }
     
-    .detail-wildan >.content-right {
-        max-width: 90%;
+    .detail-wildan > .content-left,  .detail-laeli > .content-left, .detail-muklis > .content-left{
         position: absolute;
-        left: 5%;
-        top: 25%;
-    }
-
-    .desc p {
-        text-indent: 0.3in;
-      }
-
-    .content-right h1, h2 {
-        font-size: 20px;
-    }
-
-    .content-right p, ul {
-        font-size: 12px;
-    }
-
-    .content-left h1, h2 {
-        font-size: 20px;
-    }
-
-    .content-left p, ul {
-        font-size: 12px;
-    }
-
-    .detail-rizky > .content-right {
-        right: 37%;
+        left:35%;
         top: 5%;
     }
 
-    .detail-rizky > .content-left {
-        max-width: 90%;
-        position: absolute;
-        left: 5%;
-        top: 25%;
+    .detail-wildan >.content-right, .detail-laeli >.content-right, .detail-muklis >.content-right {
+        top: 30%;
     }
-   
+    
+    .detail-rizki > .content-right, .detail-iqbal > .content-right {
+        left: 35%;
+        top: 5%;
+        right: unset;
+    }
+
+    .detail-rizki > .content-left, .detail-iqbal > .content-left {
+        top: 30%;
+    }
+    
+    li {
+        font-size: 10px;
+    }
+    
+    .list-satu > h2, .list-dua > h2, .list-tiga > h2, .list-empat > h2, .list-lima > h2{
+        padding: 3px;
+        font-weight: 900;
+        font-size: 10px;
+    }
+
+    .list-satu, .list-dua, .list-tiga, .list-empat, .list-lima{
+        width: 22%;
+        margin: 1% 0 0 1vh;
+    }
+    
 }

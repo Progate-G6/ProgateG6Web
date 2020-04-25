@@ -145,14 +145,19 @@
         height: 200px;
         flex-direction:row;
         display: flex;
+        min-height: 28vh;
     }
 
+    .link-selengkap{
+        bottom: 2px;
+    }
     
     .team-highlight {
         margin-left: 3px;
         margin-right: 3px;
         width: 15vh;
         font-size:6px;
+        min-height: 26vh;
         display: inline-block;
     }
 

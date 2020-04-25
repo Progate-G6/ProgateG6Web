@@ -99,13 +99,13 @@ header {
 }
 
 .top-kanan h1 {
-  font-size: 31pt;
+  font-size: 40px;
   padding-top: 5%;
 }
 
 .top-kanan a {
   font-weight: normal;
-  font-size: 30pt;
+  font-size: 36px;
   color: rgb(131, 131, 131);
   display: inline-block;
   line-height: 0px;
@@ -113,7 +113,9 @@ header {
 
 }
 
-
+.image-titik {
+  height: 30px;
+}
 
 .top-kanan a:hover {
   opacity: 1;
@@ -121,7 +123,7 @@ header {
 
 /* BAGIAN KONTEN */
 .kotak-penjelasan {
-  padding: 40px 140px 0px 140px;
+  padding: 40px 70px 0px 70px;
 }
 
 .kotak-penjelasan p {
@@ -136,7 +138,7 @@ header {
   height: 210px;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin: 0px 130px 0px 140px;
+  margin: 0px 70px 0px 70px;
   text-align: center;
   transition: all 0.5s;
 }
@@ -177,7 +179,7 @@ header {
 }
 
 .penjelasan-konten p {
-  font-size: 12px;
+  font-size: 14px;
   text-align: justify;
 }
 

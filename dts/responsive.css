@@ -26,7 +26,8 @@
     .penjelasan-konten p {
         font-size: 11px;
         text-align: justify;
-    }}
+    }
+}
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {

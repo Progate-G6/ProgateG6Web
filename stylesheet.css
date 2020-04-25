@@ -21,10 +21,43 @@ a {
   margin: 0 auto;
 }
 
+<<<<<<< Updated upstream
 .top-wrapper {
   padding: 180px 0 100px 0;
   background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
   background-size: cover;
+=======
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1 {
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+>>>>>>> Stashed changes
   color: white;
   text-align: center;
 }
@@ -36,6 +69,7 @@ a {
   margin-bottom: 10px;
 }
 
+<<<<<<< Updated upstream
 .top-wrapper p {
   opacity: 0.7;
   margin-bottom: 3px;
@@ -74,12 +108,84 @@ a {
 
 .btn:hover {
   opacity: 1;
+=======
+.welcome-title h2 {
+  padding-top: 27vh;
+  color: white;
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+
+.team-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 60px;
+}
+
+.team-highlight {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 100%;
+  border-radius: 6px;
+  width: calc(20% - 20px);
+  background-color: #ecf0f1;
+  border: 3px solid grey;
+  text-align: center;
+}
+
+.team-highlight img {
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-txt {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
+.team-highlight a {
+  color: blue;
+}
+
+.detail-content {
+  width: 100%;
+  height: 450px;
+}
+
+.detail-wildan {
+  height: 100%;
+  background-color: burlywood;
+}
+
+.detail-laeli {
+  height: 100%;
+  background-color: red;
+}
+
+.detail-rizky {
+  height: 100%;
+  background-color: green;
+}
+
+.detail-iqbal {
+  height: 100%;
+  background-color: grey;
+}
+
+.detail-mukhlis {
+  height: 100%;
+  background-color: yellow;
+>>>>>>> Stashed changes
 }
 
 .fa {
   margin-right: 5px;
 }
 
+<<<<<<< Updated upstream
 header {
   height: 65px;
   width: 100%;
@@ -101,6 +207,26 @@ header {
 .header-right {
   float: right;
   margin-right: -25px;
+=======
+
+.dts-kiri {
+  width: 70%;
+  float: left;
+  text-align: left;
+  padding: 40px 40px 40px 80px;
+}
+
+.dts-kiri h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.dts-kiri p {
+  text-align: justify;
+  text-indent: 0.5in;
+  font-size: 30pt;
+  color: grey;
+>>>>>>> Stashed changes
 }
 
 .header-right a {
@@ -112,13 +238,19 @@ header {
   transition: all 0.5s;
 }
 
+<<<<<<< Updated upstream
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+=======
+.dts-kiri a:hover {
+  opacity: 1;
+>>>>>>> Stashed changes
 }
 
 .menu-icon{
   color: white;
   float: right;
+<<<<<<< Updated upstream
   font-size: 25px;
   padding: 21px 0;
   display: none;
@@ -202,3 +334,62 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
+=======
+  text-align: right;
+
+}
+
+.logo-dts {
+  height: 500px;
+}
+
+/*progate */
+.progate-kanan {
+  width: 60%;
+  float: right;
+  text-align: right;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 50px;
+}
+
+.progate-kanan h1 {
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.progate-kanan p {
+  text-align: justify;
+  text-indent: 0.5in;
+  font-size: 30pt;
+  color: grey;
+}
+
+.progate-kanan a {
+  color: white;
+  background-color: blue;
+  font-size: 18pt;
+  padding: 10px 20px;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.progate-kanan a:hover {
+  opacity: 1;
+}
+
+.progate-kiri {
+  width: 40%;
+  float: left;
+  text-align: left;
+  padding-top: 250px;
+  padding-bottom: 30px;
+  padding-right: 100px;
+  padding-left: 30px
+}
+
+.progate {
+  height: 300px;
+}
+>>>>>>> Stashed changes

@@ -1,0 +1,249 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-left h1{
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.top-content {
+  margin-bottom: -2%;
+  text-align: center;
+  height: 80vh;
+  background-size: cover;
+  background-image: url("https://progate-g6.github.io/ProgateG6Web/images/eatsleepcode.jpeg");
+  background-position: 0 center;
+}
+
+.welcome-title {
+  font-family: 'Lucida Sans';
+  padding-top: 2%;
+}
+
+.welcome-title h1 {
+  color: white;
+  font-size: 65px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.welcome-title h2{
+  padding-top: 27vh;
+  color: white;
+  font-size: 65px;
+  letter-spacing: 5px;
+}
+.team-content {
+  margin-left: 5px;
+  margin-right: 5px;
+  height: 400px;
+  margin-bottom: 60px;
+}
+
+.team-highlight {
+  margin-right: 10px;
+  margin-left: 10px;
+  float: left;
+  height: 100%;
+  border-radius: 6px;
+  width: calc(20% - 20px);
+  background-color: #ecf0f1;
+  border: 3px solid grey;
+  text-align: center;
+}
+
+.team-highlight img {
+  margin-top: 10%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.team-txt {
+  margin-top: 10%;
+  font-size: 18px;
+}
+
+.team-highlight a {
+  color: blue;
+}
+
+.detail-content{
+  width: 100%;
+  height: 110vh;
+}
+
+.detail-content img {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  width : 200px;
+  height: 200px;
+}
+
+.detail-wildan{
+  position: relative;
+  height: 100%;
+  background-color: gray;
+}
+
+.detail-wildan > .content-left {
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.content-sosmed{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 100%;
+  font-size: 35px;
+}
+
+.fa-whatsapp{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: green;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color:white;
+}
+
+.fa-envelope{
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #ecf0f1;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color: red;
+}
+
+.fa-instagram {
+  display: inline-block;
+  border-radius: 50px;
+  background-color: #f39c12;
+  box-shadow: 0px 0px 2px #888;
+  padding: 10px 10px;
+  color: purple;
+}
+
+.detail-wildan >.content-right {
+  top:10%;
+  color: white;
+  max-width: 60%;
+  position: relative;
+  left: 30%;
+}
+
+.content-right h1 {
+  display: inline;
+  font-style: normal;
+  color: white;
+  margin: 0px;
+}
+
+.content-right p {
+  color: white;
+}
+
+.desc p {
+  text-align: justify;
+  text-indent: 0.5in;
+}
+
+.detail-laeli{
+  height: 100%;
+  background-color: red;
+}
+
+.detail-rizky {
+  position: relative;
+  color: white;
+  height: 100%;
+  background-color: #c0392b;
+}
+
+.detail-rizky > .content-left {
+  max-width: 60%;
+  position: absolute;
+  left: 10%;
+  top: 10%;
+}
+
+.detail-rizky >.content-right {
+  top:10%;
+  color: white;
+  position: absolute;
+  right: 10%;
+}
+
+.detail-iqbal {
+  height: 100%;
+  background-color: grey;
+}
+
+.detail-mukhlis {
+  height: 100%;
+  background-color: yellow;
+}

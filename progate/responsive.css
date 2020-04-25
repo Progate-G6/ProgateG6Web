@@ -21,7 +21,7 @@
     }
     
     .welcome-title h2{
-        padding-top: 5vh;
+        padding-top: 17vh;
         font-size: 30px;
     }
     
@@ -125,5 +125,17 @@
         word-wrap: break-word;
         margin-top: 10%;
         font-size:10px;
+    }
+
+    .footer-menu, .footer-kontak, .footer-folow, .footer-coppy-right{
+        display: none;
+    }
+
+    .footer-email-grup{
+        width:90%;
+    }
+
+    .footer-right h1{
+        text-align: center;
     }
 }

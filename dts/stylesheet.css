@@ -2,13 +2,71 @@
   text-decoration: none;
 }
 
-/* BAGIAN HEADER  */
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
 .container {
   max-width: 1170px;
   margin: 0 auto;
   padding: 0px 15px;
 
 }
+
+/* BAGIAN HEADER  */
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  top: 0;
+  margin-bottom: 10px;
+}
+
+.header-left {
+  float: left;
+
+}
+
+.header-left h1 {
+  width: 289px;
+  font-family: monospace;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-shadow: 0 0 7px turquoise;
+}
+
+.header-right {
+  float: right;
+
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  font-size: 14px;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+/* BAGIAN TOP */
 
 .kotak-top {
 
@@ -20,11 +78,10 @@
 
 .top-kiri {
   width: 30%;
-  height: 272.5px;
   float: left;
   text-align: center;
   background-color: rgb(248, 248, 248);
-  padding: 30px 0px 30px 0px;
+  padding: 30px 0px 26px 0px;
 
 }
 
@@ -36,11 +93,10 @@
 .top-kanan {
   display: block;
   width: 70%;
-  height: 272.5px;
   float: right;
   text-align: center;
   background-color: rgb(248, 248, 248);
-  padding: 30px 0px 30px 0px;
+  padding: 38px 0px 100px 0px;
 
 }
 
@@ -63,8 +119,9 @@
   opacity: 1;
 }
 
+/* BAGIAN KONTEN */
 .kotak-penjelasan {
-  padding: 40px 150px 0px 150px;
+  padding: 40px 140px 0px 140px;
 }
 
 .kotak-penjelasan p {
@@ -73,26 +130,27 @@
   font-size: 20pt;
 }
 
-.top-kanan  img{
+.top-kanan img {
   height: 20pt;
   width: 20pt;
 }
 
 .kotak-kontens {
-  height: 200px;
+  height: 210px;
   padding-top: 20px;
   padding-bottom: 10px;
-  margin: 0px 140px 0px 150px;
+  margin: 0px 130px 0px 140px;
   text-align: center;
   transition: all 0.5s;
 }
 
 .kotak-kontens:hover {
   border-left: 5px solid blue;
-  padding-left: 5px;
+  padding-left: 10px;
   padding-right: 5px;
   background-color: rgb(248, 248, 248);
 }
+
 
 .logo-konten {
   float: left;
@@ -100,7 +158,8 @@
 }
 
 .logo-konten img {
-  width: 130px;
+  width: 150px;
+
 
 }
 
@@ -110,17 +169,18 @@
   border: 2px solid rgba(0, 0, 255, 0.8);
   border-radius: 10px;
   width: 695px;
-  padding: 15px 5px;
-  margin-left: 20px;
+  height: 110px;
+  padding: 15px 5px 15px 5px;
+  margin-left: 10px;
 
 }
 
 .penjelasan-konten h1 {
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .penjelasan-konten p {
-  font-size: 16px;
+  font-size: 12px;
   text-align: justify;
 }
 
@@ -130,74 +190,14 @@
   font-size: 12px;
   padding: 5px 15px;
   border-radius: 4px;
-  opacity: 0.7;
-
+  opacity: 0.6;
+  transition: all 0.5s;
 
 }
 
 .penjelasan-konten a:hover {
   opacity: 1;
 
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  top: 0;
-  margin-bottom: 10px;
-}
-
-.header-left {
-  float: left;
-}
-
-.header-left h1{
-  width: 289px;
-  font-family: monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 24px;
-  color: #FFFFFF;
-  text-shadow: 0 0 7px turquoise;
-}
-
-.header-right {
-  float: right;
-  margin-right: -25px;
-}
-
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  font-size: 14px;
-  transition: all 0.5s;
-}
-
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .top-content {
@@ -221,7 +221,7 @@ header {
   margin-bottom: 10px;
 }
 
-.welcome-title h2{
+.welcome-title h2 {
   padding-top: 27vh;
   color: white;
   font-size: 65px;
@@ -263,17 +263,17 @@ header {
   color: blue;
 }
 
-.detail-content{
+.detail-content {
   width: 100%;
   height: 450px;
 }
 
-.detail-wildan{
+.detail-wildan {
   height: 100%;
   background-color: burlywood;
 }
 
-.detail-laeli{
+.detail-laeli {
   height: 100%;
   background-color: red;
 }

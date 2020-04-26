@@ -266,6 +266,11 @@ font-family: Arial, Helvetica, sans-serif;
   height: 320px;
   padding: 2% 10%;
 }
+
+footer a {
+  color: white;
+}
+
 .footer-menu, .footer-kontak, .footer-folow, .footer-email-grup{
   float: left;
   width: 25%;

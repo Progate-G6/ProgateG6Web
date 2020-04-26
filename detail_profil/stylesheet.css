@@ -412,6 +412,11 @@ footer{
   height: 320px;
   padding: 2% 15%;
 }
+
+footer a {
+  color: white;
+}
+
 .footer-menu, .footer-kontak, .footer-folow, .footer-email-grup{
   float: left;
   width: 30%;

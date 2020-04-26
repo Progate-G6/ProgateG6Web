@@ -138,11 +138,7 @@
         margin: 0 0px;
         padding: 0 0px;
     }
-    
-    .header-right {
-        margin-right: 10%;
-    }
-    
+
     .header-right a {
         line-height: 45px;
         font-size: 10px;
@@ -238,7 +234,7 @@
     }
 
     .progate-kanan {
-        padding:10px;
+        padding:5%;
         width: 100%;
         float: left;
         text-align: left;

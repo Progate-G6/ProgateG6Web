@@ -185,7 +185,7 @@ header {
   font-size: 14px;
 }
 .link-selengkap > .fa{
-  padding-left: 20px; 
+  padding-left: 18px; 
 }
 
 .team-highlight img {
@@ -332,6 +332,7 @@ font-family: Arial, Helvetica, sans-serif;
 
 .kotak-extra-progate {
   height: 70vh;
+  margin-bottom: 10vh;
 }
 
 .progate-kanan {

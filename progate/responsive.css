@@ -161,4 +161,9 @@
     .footer-right h1{
         text-align: center;
     }
+
+    .suport {
+        display: flex;
+        justify-content: center;
+    }
 }

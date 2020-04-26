@@ -13,7 +13,7 @@
     
     .welcome-title {
         text-align: center;
-        padding-top: 10%;
+        /* padding-top: 10%; */
     }
     
     .welcome-title h1 {
@@ -145,17 +145,13 @@
     }
     
     
-    .welcome-title {
-        padding-top: 10%;
-    }
-    
     .welcome-title h1 {
-        font-size: 25px;
+        font-size: 15px;
     }
     
     .welcome-title h2{
-        padding-top: 14vh;
-        font-size: 16px;
+        padding-top: 8vh;
+        font-size: 10px;
     }
     
     .team-content {

@@ -41,7 +41,7 @@ header {
   font-size: 25px;
   color: #FFFFFF;
   text-shadow: 0 0 7px turquoise;
-
+  
 }
 
 .header-right {
@@ -64,20 +64,67 @@ header {
 }
 
 .top-content {
+  position: relative;
   margin-bottom: -2%;
   text-align: center;
-  height: 80vh;
-  background-size: cover;
+  /* height: 80vh; */
+  /* background-size: cover;
   background-image: url("https://progate-g6.github.io/ProgateG6Web/images/eatsleepcode.jpeg");
-  background-position: 0 center;
+  background-position: 0 center; */
+}
+
+#slider {
+  width: auto;
+  height: 80vh;
+  overflow: hidden;
+}
+
+#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 10s slider infinite;
+}
+
+#slider figure img {
+  width: 20%;
+  float: left;
+}
+
+@keyframes slider {
+  0% {
+    left: 0;
+  }
+  20% {
+    left: 0;
+  }
+  25% {
+    left: -100%;
+  }
+  45%{
+    left: -100%;
+  }
+  50% {
+    left: -200%;
+  }
+  70% {
+    left: -200%;
+  }
 }
 
 .welcome-title {
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 10;
   font-family: 'Lucida Sans';
-  padding-top: 2%;
+  top: 10%;
 }
 
 .welcome-title h1 {
+  text-shadow: 0 0 7px turquoise;
   color: white;
   font-size: 65px;
   letter-spacing: 5px;
@@ -86,6 +133,7 @@ header {
 
 
 .welcome-title h2 {
+  text-shadow: 0 0 7px turquoise;
   padding-top: 27vh;
   color: white;
   font-size: 65px;
@@ -116,6 +164,8 @@ header {
 
 
 .team-content {
+  position: relative;
+  z-index: 8;
   margin-left: 5px;
   margin-right: 5px;
   display: block;
@@ -244,7 +294,7 @@ header {
   
   text-align: center;
   padding-top: 70px;
-
+  
 }
 
 .logo-dts {
@@ -257,7 +307,7 @@ li {
   list-style: none;
 }
 footer{
-font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer{

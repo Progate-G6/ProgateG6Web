@@ -52,10 +52,8 @@
     }
     
     .link-selengkap{
-        text-align: center;
-        position: absolute;
-        bottom: 0px;
-        margin: 0;
+        display: inline-block;
+        margin: 1vh auto;
         font-size: 8px;
     }
     
@@ -169,8 +167,9 @@
     }
     
     .link-selengkap{
-        position: absolute;
-        bottom: 0px;
+        position: unset;
+        display: inline-block;
+        margin: 1vh auto;
     }
     
     .link-selengkap:hover{
@@ -184,16 +183,15 @@
     .nama {
         margin:0 2px;
     }
-    
     .team-highlight {
         margin-left: 3px;
         margin-right: 3px;
         width: 15vh;
         font-size:6px;
-        min-height: 200px;
-        display: inline-block;
+        /* min-height: 200px; */
         position: relative;
     }
+
     
     .link-selengkap .fa{
         display: none;

@@ -176,7 +176,7 @@ header {
   margin-right: 10px;
   margin-left: 10px;
   float: left;
-  min-height: 24vh;
+  /* min-height: 24vh; */
   border-radius: 6px;
   width: calc(20% - 20px);
   background-color: rgb(89, 175, 212,0.8);
